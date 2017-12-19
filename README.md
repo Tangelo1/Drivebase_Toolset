@@ -21,3 +21,25 @@ Notes:
   
 -- Config --
   The config must be set up to run both manual and auto tools. For the automatic mode, all fields in the config must be set. If you wish to use the database functionality in the manual tool, the databse fields must be set in the config. 
+
+# Steps to Install on Linux Based Systems
+
+1. Clone the repo
+2. Edit the config file in /lib/ to your desired settings.
+3. Run Install tool as sudo in /linux/ that matches which package manager you have (yum or apt).
+
+This will install the automatic tool with an hourly cron job.
+
+# Steps to Install on Windows Based Systems
+
+1. Clone the repo
+2. Edit the config file in /lib/ to your desired settings.
+3. Run the install tool as administrator in the /windows/ folder.
+
+-- If the install hangs up (especially on the chocolatey step), you may have to close it and reopen it. --
+
+This will install the automatic tool with an hourly Windows Task Scheduler job.
+
+# Steps to Install on Mac Based Systems
+
+Coming Soon...
