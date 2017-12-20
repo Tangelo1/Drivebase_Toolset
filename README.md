@@ -36,7 +36,7 @@ Features List:
 1. Clone the repo
 2. Edit the config file in /lib/ to your desired settings.
 3. Run the install tool as administrator in the /windows/ folder.
-   - *If the install hangs up (especially on the chocolatey step), you may have to close it and reopen it.* -
+   - *If the install hangs up (especially on the chocolatey step), you may have to close it and reopen it.* 
 
 **This will install the automatic tool with an hourly Windows Task Scheduler job.**
 
