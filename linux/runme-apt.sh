@@ -17,7 +17,7 @@ sudo mkdir /usr/local/bin/dbtshddtool/
 sudo mkdir /usr/local/bin/dbtshddtool/lib/
 
 cd ../../src/
-sudo cp dbts-auto.py  /usr/local/bin/dbtshddtool/
+sudo cp dbts-auto.py /usr/local/bin/dbtshddtool/
 cd ../linux/
 sudo cp runhddtool.sh /usr/local/bin/dbtshddtool/
 cd ../lib/
