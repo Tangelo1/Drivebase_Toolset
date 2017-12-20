@@ -26,7 +26,8 @@ Notes:
 
 1. Clone the repo
 2. Edit the config file in /lib/ to your desired settings.
-3. Run Install tool as sudo in /linux/ that matches which package manager you have (yum or apt). You may have to chmod +x on this file.
+3. Run Install tool as sudo in /linux/ that matches which package manager you have (yum or apt). 
+(You may have to chmod +x on this file.)
 
 This will install the automatic tool with an hourly cron job.
 
