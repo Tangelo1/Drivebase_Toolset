@@ -1,17 +1,8 @@
 #!/bin/bash
 
-#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-#brew install python
-
-cd ../lib/
-sudo ./cltools.sh
-
-cd smartmontools
-./autogen.sh
-./configure
-make
-sudo make install
+brew install smartmontools
 
 cd ../lib/pySMART-master
 sudo python setup.py install
