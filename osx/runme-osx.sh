@@ -18,10 +18,10 @@ sudo mkdir /Applications/Utilities/dbtshddtool/
 sudo mkdir /Applications/Utilities/dbtshddtool/lib/
 
 cd ../../src/
-sudo cp dbts-auto.py /Applications/Utilites/dbtshddtool/
+sudo cp dbts-auto.py /Applications/Utilities/dbtshddtool/
 cd ../linux/
-sudo cp runhddtool.sh /Applications/Utilites/dbtshddtool/
+sudo cp runhddtool.sh /Applications/Utilities/dbtshddtool/
 cd ../lib/
-sudo cp dbts.config /Applications/Utilites/dbtshddtool/lib/
+sudo cp dbts.config /Applications/Utilities/dbtshddtool/lib/
 
-sudo chmod +x /Applications/Utilites/dbtshddtool/runhddtool.sh
+sudo chmod +x /Applications/Utilities/dbtshddtool/runhddtool.sh
