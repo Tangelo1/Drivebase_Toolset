@@ -8,7 +8,7 @@
 	<array>
 		<string>sh</string>
 		<string>-c</string>
-		<string>/Applications/Utilities/dbtshddtool/runtool.sh</string>
+		<string>/Applications/Utilities/dbtshddtool/runhddtool.sh</string>
 	</array>
 	<key>StartInterval</key>
 	<integer>30</integer>
