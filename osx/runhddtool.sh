@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /Applications/Utilites/dbtshddtool/
-sudo python /Applications/Utilites/dbtshddtool/dbts-auto.py
+cd /Applications/Utilities/dbtshddtool/
+sudo python /Applications/Utilities/dbtshddtool/dbts-auto.py

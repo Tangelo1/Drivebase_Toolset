@@ -19,7 +19,7 @@ sudo mkdir /Applications/Utilities/dbtshddtool/lib/
 
 cd ../../src/
 sudo cp dbts-auto.py /Applications/Utilities/dbtshddtool/
-cd ../linux/
+cd ../osx/
 sudo cp runhddtool.sh /Applications/Utilities/dbtshddtool/
 cd ../lib/
 sudo cp dbts.config /Applications/Utilities/dbtshddtool/lib/
