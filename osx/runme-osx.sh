@@ -25,3 +25,6 @@ cd ../lib/
 sudo cp dbts.config /Applications/Utilities/dbtshddtool/lib/
 
 sudo chmod +x /Applications/Utilities/dbtshddtool/runhddtool.sh
+
+sudo cp edu.rit.cias.txacias.dbtshddtool.plist /Library/LaunchDaemons
+sudo launchctl load -w /Library/LaunchDaemons/edu.rit.cias.txacias.dbtshddtool.plist
