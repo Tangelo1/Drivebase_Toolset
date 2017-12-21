@@ -42,6 +42,8 @@ Features List:
 
 ## Steps to Install on Mac Based Systems
 
+** smartmontools is currently broken on mac **
+
 1. Clone the repo
 2. Edit the config file in /lib/ to your desired settings.
 3. Run Install tool as sudo in /osx/ 
