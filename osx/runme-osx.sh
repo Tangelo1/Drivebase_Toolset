@@ -2,9 +2,16 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install smartmontools
+cd ../lib/
+./ctools.sh
 
-cd ../lib/pySMART-master
+cd smartmontools
+./autogen.sh
+./configure
+make
+sudo make install
+
+cd ../pySMART-master
 sudo python setup.py install
 
 sudo easy_install pip
