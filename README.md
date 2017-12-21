@@ -42,7 +42,7 @@ Features List:
 
 ## Steps to Install on Mac Based Systems
 
-** smartmontools is currently broken on mac **
+**Requires X-Code Dev Tools**
 
 1. Clone the repo
 2. Edit the config file in /lib/ to your desired settings.
