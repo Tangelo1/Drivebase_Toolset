@@ -7,13 +7,15 @@ brew install smartmontools
 cd ../lib/pySMART-master
 sudo python setup.py install
 
+sudo easy_install pip
+
 sudo python -m pip install --upgrade pip
 sudo pip install postgres
 sudo pip install mysql-connector==2.1.4
 sudo pip install update mysql-connector
 
-sudo mkdir /Applications/Utilites/dbtshddtool/
-sudo mkdir /Applications/Utilites/dbtshddtool/lib/
+sudo mkdir /Applications/Utilities/dbtshddtool/
+sudo mkdir /Applications/Utilities/dbtshddtool/lib/
 
 cd ../../src/
 sudo cp dbts-auto.py /Applications/Utilites/dbtshddtool/
