@@ -1,18 +1,10 @@
 #!/bin/bash
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-#brew install svn
-brew install autoconf automake libtool
 
-cd smartmontools
-#sudo chmod +x autogen.sh
-./autogen.sh
-#sudo chmod +x configure
-./configure
-make
-sudo make install
+brew install smartmontools
 
-cd ../lib/pySMART-master
+cd ../pySMART-master
 sudo python setup.py install
 
 sudo easy_install pip
