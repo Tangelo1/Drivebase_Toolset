@@ -2,11 +2,16 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install svn
+
 cd ../lib/
-./ctools.sh
+sudo chmod +x ctools.sh
+sudo ./ctools.sh
 
 cd smartmontools
+sudo chmod +x autogen.sh
 ./autogen.sh
+sudo chmod +x autogen.sh
 ./configure
 make
 sudo make install
