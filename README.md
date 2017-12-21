@@ -42,4 +42,7 @@ Features List:
 
 ## Steps to Install on Mac Based Systems
 
-Coming Soon...
+1. Clone the repo
+2. Edit the config file in /lib/ to your desired settings.
+3. Run Install tool as sudo in /osx/ 
+   - *You may have to chmod +x on this file.*
