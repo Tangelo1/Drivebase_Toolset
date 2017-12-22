@@ -121,7 +121,7 @@ def connectToDB():
                                  database=_db_name)
     except:
         print 'Cannot Connect to Database'
-        return
+        menu()
 
     # Get the Hostname
     hostname = socket.gethostname().replace('-', '_')
@@ -171,13 +171,13 @@ def executeCmd(cmd, driveId):
             print dev.all_attributes()
         elif cmd == 'db_records':
             connection = connectToDB()
-            _hostname = connection[0]
+            hostname = connection[0]
             cur = connection[1]
             conn = connection[2]
 
             try:
                 cur.execute(
-                    "SELECT * FROM %s WHERE  path = %%s" % _hostname, [dev.name]
+                    "SELECT * FROM %s WHERE  path = %%s" % hostname, [dev.name]
                 )
 
                 # Save all the entries for safe keeping
@@ -375,7 +375,7 @@ if __name__ == '__main__':
 
     if platform.system() == 'Windows' or platform.system() == 'Darwin' or platform.system() == 'Linux' or platform.system() == 'Linux2':
 
-        config = open('../lib/dbts.config', 'r')
+        config = open('lib/dbts.config', 'r')
 
         varTemp = []
         for l in config:
