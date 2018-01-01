@@ -37,6 +37,6 @@ copy dbts-auto.py C:\\dbtshddtool\
 cd ../lib/
 copy dbts.config C:\\dbtshddtool\lib
 
-schtasks /create /tn "DBTS-Auto" /tr "C:\\dbtshddtool\runhddtool.bat" /sc HOURLY /ru System
+schtasks /create /tn "DBTS-Auto" /tr "C:\dbtshddtool\runhddtool.bat" /sc HOURLY /ru System
 
 PAUSE
